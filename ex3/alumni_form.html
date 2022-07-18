@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>ฟอร์มลงทะเบียนศิษย์เก่า IT และ IS</h1>
+
+    <form action="https://www.example.com/" method="post">
+      <p>
+        <label for="name">ชื่อ-นามสกุล</label> <br />
+        <select name="prefix">
+          <option value="mr">นาย</option>
+          <option value="mrs">นาง</option>
+          <option value="miss">นางสาว</option>
+        </select>
+
+        <input type="text" name="name" id="" />
+      </p>
+
+      <p>
+        <label for="gender">เพศ</label> <br />
+        <input type="radio" name="gender" value="male" checked="checked" />ชาย
+        <input
+          type="radio"
+          name="gender"
+          value="female"
+          checked="checked"
+        />หญิง
+        <input
+          type="radio"
+          name="gender"
+          value="other"
+          checked="checked"
+        />อื่นๆ
+      </p>
+
+      <p>
+        <label for="email">Email</label> <br />
+        <input type="email" name="email" id="" />
+      </p>
+
+      <p>
+        <label for="tel">เบอร์โทรติดต่อ</label><br />
+        <input type="tel" name="tel" id="" />
+      </p>
+
+      <p>
+        <label for="photo">Upload รูปถ่ายตนเอง 1 รูป</label><br />
+        <input type="file" name="photo" id="" />
+      </p>
+
+      <p>
+        <label for="address">ที่อยู่</label><br />
+        <textarea name="address" cols="40" rows="5"></textarea>
+      </p>
+
+      <p>
+        <label for="course">หลักสูตรที่ศึกษา</label> <br />
+        <select name="course">
+          <option value="it" selected>IT</option>
+          <option value="is">IS</option>
+        </select>
+      </p>
+
+      <p>
+        <label for="studentid">รหัสนักศึกษา</label> <br />
+        <input type="text" name="studentid" id="" />
+      </p>
+
+      <p>
+        <label for="year">ปีที่เข้าศึกษา</label><br />
+        <select name="year">
+          <option value="2561" selected>2561</option>
+          <option value="2560">2560</option>
+          <option value="2559">2559</option>
+          <option value="2558">2558</option>
+          <option value="2557">2557</option>
+          <option value="2556">2556</option>
+          <option value="2555">2555</option>
+        </select>
+      </p>
+
+      <p>
+        <label for="occupation">อาชีพปัจจุบัน</label><br />
+        <input type="text" name="occupation" id="" />
+      </p>
+
+      <p>
+        <label for="jobtype">ประเภทของงาน</label><br />
+        <select name="jobtype">
+          <option value="web" selected>Web Developer</option>
+          <option value="sa">SA</option>
+          <option value="graphic">Graphic Desing</option>
+          <option value="digital">Digital Marketing</option>
+        </select>
+      </p>
+
+      <p>
+        <label for="companyname">ชื่อบริษัท</label><br />
+        <input type="text" name="companyname" id="" />
+      </p>
+
+      <p>
+        <label for="companyaddress">ที่อยู่บริษัท</label><br />
+        <textarea name="companyaddress" cols="40" rows="5"></textarea>
+      </p>
+
+      <input type="submit" name="summit" value="ส่ง" /> &nbsp;
+      <input type="reset" name="reset" value="ล้างข้อมูล" />
+    </form>
+  </body>
+</html>
