@@ -1,4 +1,22 @@
 li {
   letter-spacing: 2px;
-  color: red;
+  color: green;
+}
+h1 {
+  font-family: "Inter", sans-serif;
+  font-size: 40px;
+  color: darkgray;
+}
+
+a {
+  text-decoration: none;
+}
+a:hover {
+  font-weight: bold;
+  font-size: 18px;
+  color: red !important;
+  background-color: yellow;
+}
+a:visited {
+  color: gray;
 }
